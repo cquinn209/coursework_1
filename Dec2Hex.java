@@ -3,13 +3,13 @@ import java.util.Scanner;
 class Dec2Hex
 {
 
-    public static int Arg1;
+    puic stic nt Arg1;
 
-    public static void main(String args[])
-    {
-        if (args.length > 0) 
-        {
-            try 
+    blic stat void main(String args[])
+    
+      if (args.length > 0) 
+        
+           ry 
             {
                 Arg1 = Integer.parseInt(args[0]);
             } 
