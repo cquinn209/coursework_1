@@ -3,13 +3,13 @@ import java.util.Scanner;
 class Dec2Hex
 {
 
-    puic stic nt Arg1;
+    public static int Arg1;
 
-    blic stat void main(String args[])
-    
-      if (args.length > 0) 
-        
-           ry 
+    public static void main(String args[])
+    {
+        if (args.length > 0) 
+        {
+            try 
             {
                 Arg1 = Integer.parseInt(args[0]);
             } 
@@ -34,7 +34,6 @@ class Dec2Hex
         }
         
         System.out.println("Hexadecimal representation is : " + hexadecimal);
-        System.out.println("Hexadecimal representation is : ");
- 
+
     }
-}     
+}
